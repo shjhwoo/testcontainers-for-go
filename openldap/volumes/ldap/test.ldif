@@ -1,0 +1,19 @@
+dn: ou=People,dc=sf4app,dc=org
+ou: People
+objectClass: organizationalUnit
+
+dn: cn=user1,ou=People,dc=sf4app,dc=org
+myadditionnalAttr2: Value2
+myadditionnalAttr: Value1
+sn: My User1
+mail: user1@sf4app.org
+cn: user1
+objectClass: personnel
+
+dn: cn=user2,ou=People,dc=sf4app,dc=org
+myadditionnalAttr2: Value2
+myadditionnalAttr: Value1
+sn: My User2
+mail: user2@sf4app.org
+cn: user2
+objectClass: personnel
